@@ -20,10 +20,7 @@ import retrofit2.Retrofit;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-    ArrayList<String> list;
-    CustomListAdapter customListAdapter;
-    RecyclerView recyclerView;
-    Retrofit retrofitCall;
+    private ArrayList<String> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

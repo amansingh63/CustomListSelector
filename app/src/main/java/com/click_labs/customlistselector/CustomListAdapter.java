@@ -18,10 +18,10 @@ import java.util.List;
 public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.ViewHolder> {
 
 
-    Activity activity;
-    List<String> list;
-    OnListItemSelectedListener onListItemSelectedListener;
-    Dialog dialog;
+    private Activity activity;
+    private List<String> list;
+    private OnListItemSelectedListener onListItemSelectedListener;
+    private Dialog dialog;
 
     public CustomListAdapter(List<String> list, Activity activity, OnListItemSelectedListener onListItemSelectedListener, Dialog dialog) {
         this.list = list;
